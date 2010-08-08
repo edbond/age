@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Age calculator</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+    <h1>Please input your date of birthday</h1>
+
+    <div id="flash">
+      <div id="errors">
+      </div>
+    </div>
+    
+    <form action="/age" method="get" accept-charset="utf8">
+      <input type="text" name="dob" class="datetime" />
+      <input type="submit" value="Calculate" />
+    </form>
+
+    <div id="age-result"></div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+# Age calculation
+
+Example web site using clojure, compojure, ring, enlive
+
+## Usage
+
+lein deps
+lein run src/age.clj
+open http://127.0.0.1:8080/
+
+Input date of your birthdate or any other date in format
+YYYY-MM-DD (for example 1982-01-01) and press 'Calculate'
+
+## License
+
+Copyright (C) 2010 FIXME
+
+Distributed under the Eclipse Public License, the same as Clojure.

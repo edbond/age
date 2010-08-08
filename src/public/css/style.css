@@ -1,0 +1,14 @@
+body {
+   margin: 2em;
+   font-family: Helvetica;
+}
+
+#flash {
+   border: 1px solid #eee;
+   background-color: red;
+}
+
+#errors {
+   color: white;
+   padding: 0.4em;
+}
